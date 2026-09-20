@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Connection test document
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+
+    // Posts collection: public read and write access
+    match /posts/{postId} {
+      allow read, write: if true;
+    }
+
+    // Chats collection: public read and write access
+    match /chats/{chatId} {
+      allow read, write: if true;
+    }
+  }
+}

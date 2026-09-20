@@ -1,0 +1,8 @@
+{
+  "name": "Remix কমেন্ট সাইট",
+  "description": "এডমিন পোস্ট ও ব্যবহারকারী কমেন্ট প্ল্যাটফর্ম এবং রিয়েল-টাইম লাইভ চ্যাট সহায়তা।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
